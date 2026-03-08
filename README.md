@@ -31,9 +31,10 @@ The system analyzes the uploaded leaf image and predicts the disease category wi
 
 ---
 
-## 🦠 Diseases Detected
 
-The model can detect the following paddy leaf conditions:
+# 🦠 Diseases Detected
+
+The model classifies **10 different classes**:
 
 1. bacterial_leaf_blight  
 2. bacterial_leaf_streak  
@@ -44,7 +45,29 @@ The model can detect the following paddy leaf conditions:
 7. downy_mildew  
 8. hispa  
 9. normal (healthy leaf)  
-10. tungro 
+10. tungro  
+
+---
+
+# 📊 Dataset
+
+The dataset contains **images of paddy leaves** belonging to different disease categories.
+
+Dataset characteristics:
+
+- Image type: Paddy leaf images  
+- Number of classes: **10**
+- Format: JPG / PNG images
+- Data split:
+  - Training set
+  - Testing set
+
+Images were preprocessed before training:
+
+- Image resizing
+- Normalization
+- Data augmentation (rotation, zoom, flipping)
+
 ---
 
 ## 🧠 Technologies Used

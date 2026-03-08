@@ -6,7 +6,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-WebApp-green)
 ![Status](https://img.shields.io/badge/Project-Completed-success)
 
-An intelligent **Deep Learning-based system** that detects diseases in **paddy (rice) crops** using leaf images.  
+An AI-powered system that detects **Paddy Crop Diseases Detection** using **Deep Learning and Computer Vision**.
 The system helps farmers and agricultural experts identify crop diseases early and take preventive actions to reduce yield loss.
 
 ---
@@ -127,25 +127,31 @@ DenseNet achieved the highest accuracy in detecting paddy leaf diseases.
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
-paddy-crop-disease-detection
+rice-plant-disease-detection
 │
 ├── dataset
-│   ├── train
-│   └── test
+│   ├── train_images
+│   └── test_images
 │
 ├── model
-│   └── trained_model.h5
+│   ├── rice_model_densenet.h5
+│   └── rice_model_vgg19.h5
 │
-├── app.py
-├── train_model.py
+├── training_models
+│   ├── train_model.py
+│   └── train_vgg19_model.py
+│
+├── frontend
+│   └── all_full_features.py
+│
+├── confusion_matrix
+├── comparing_models
+│
 ├── requirements.txt
-│
-├── static
-├── templates
-│
+├── LICENSE
 └── README.md
 ```
 

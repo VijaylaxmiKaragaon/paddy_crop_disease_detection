@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Dataset (large files)
+dataset/
+
+# Trained models
+model/
+*.keras
+*.h5
+
+# Streamlit cache
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

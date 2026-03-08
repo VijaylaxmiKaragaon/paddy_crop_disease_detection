@@ -35,12 +35,16 @@ The system analyzes the uploaded leaf image and predicts the disease category wi
 
 The model can detect the following paddy leaf conditions:
 
-- 🌿 Healthy Leaf  
-- 🍂 Brown Spot  
-- 🔥 Leaf Blast  
-- 🦠 Bacterial Leaf Blight  
-- 🌾 Tungro Virus  
-
+1. bacterial_leaf_blight  
+2. bacterial_leaf_streak  
+3. bacterial_panicle_blight  
+4. blast  
+5. brown_spot  
+6. dead_heart  
+7. downy_mildew  
+8. hispa  
+9. normal (healthy leaf)  
+10. tungro 
 ---
 
 ## 🧠 Technologies Used

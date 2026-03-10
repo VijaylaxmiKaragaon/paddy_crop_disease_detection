@@ -106,11 +106,11 @@ def load_models():
     vgg = None
     densenet = None
     try:
-        vgg = tf.keras.models.load_model("../model/rice_model_vgg19.keras")
+       vgg = tf.keras.models.load_model("paddy_crop_diseases_detection/model/rice_model_vgg19.keras")
     except Exception as e:
         st.warning("VGG19 model could not be loaded: " + str(e))
     try:
-        densenet = tf.keras.models.load_model("../model/rice_model_densenet.keras")
+      densenet = tf.keras.models.load_model("paddy_crop_diseases_detection/model/rice_model_densenet.keras")
     except Exception as e:
         st.warning("DenseNet model could not be loaded: " + str(e))
     return vgg, densenet

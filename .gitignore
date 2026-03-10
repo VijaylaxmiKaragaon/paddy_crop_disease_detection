@@ -10,9 +10,9 @@ venv/
 dataset/
 
 # Trained models
-model/
-*.keras
-*.h5
+# model/
+# *.keras
+# *.h5
 
 # Streamlit cache
 .streamlit/

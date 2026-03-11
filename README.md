@@ -137,8 +137,8 @@ rice-plant-disease-detection
 │   └── test_images
 │
 ├── model
-│   ├── rice_model_densenet.h5
-│   └── rice_model_vgg19.h5
+│   ├── rice_model_densenet.keras
+│   └── rice_model_vgg19.keras
 │
 ├── training_models
 │   ├── train_model.py
@@ -162,7 +162,7 @@ rice-plant-disease-detection
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/paddy-crop-disease-detection.git
+git clone https://github.com/VijaylaxmiKaragaon/paddy-crop-disease-detection.git
 ```
 
 ### 2️⃣ Navigate to Project Folder

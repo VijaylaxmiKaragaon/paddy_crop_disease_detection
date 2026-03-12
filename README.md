@@ -45,7 +45,7 @@ The model classifies **10 different classes**:
 7. downy_mildew  
 8. hispa  
 9. normal (healthy leaf)  
-10. tungro  
+ 10. tungro  
 
 ---
 
